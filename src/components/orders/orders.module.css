@@ -1,0 +1,51 @@
+@import url('../../index.css');
+
+.orders {
+    margin: 50px 100px;
+}
+
+.orders_text {
+    align-items: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    h2 {
+        font-weight: 700;
+        text-align: center;
+        padding-top: 30px;
+    }
+}
+
+.orders_text > div:nth-child(2) {
+    margin: 0 auto;
+}
+
+.orders_text > div:nth-child(3) {
+    align-self: flex-end;
+}
+
+.table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.tableHead {
+    background-color: var(--secondary-color);
+}
+
+.tableCall {
+    border: 2px solid rgb(122, 115, 115);
+    align-items: start;
+}
+
+.sortIconUp {
+    width: 20px;
+    height: 20px;
+}
+
+.sortIconDown {
+    width: 20px;
+    height: 20px;
+}
+
